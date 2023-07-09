@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  email: string = '';
+  password: string = '';
+
+  login(): void {
+
+    if (this.email == '' || this.password == '') {
+      alert('Porfavor complete todos los campos.');
+
+    } else {
+      this.email = '';
+      this.password = '';
+    }
+  }
 }
