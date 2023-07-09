@@ -9,6 +9,7 @@ import { HomeComponent } from './main/home/home.component';
 import { CharactersComponent } from './main/characters/characters.component';
 import { AboutComponent } from './main/about/about.component';
 import { DetailsComponent } from './main/details/details.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DetailsComponent } from './main/details/details.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
