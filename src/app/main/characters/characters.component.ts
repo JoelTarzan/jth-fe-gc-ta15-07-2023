@@ -35,6 +35,7 @@ export class CharactersComponent {
       "species": "Human",
       "gender": "Female",
       "origin": "Earth (Replacement Dimension)",
+      "location": "Earth",
       "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
     },
     {

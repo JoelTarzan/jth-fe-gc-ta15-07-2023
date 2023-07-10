@@ -6,7 +6,7 @@
             <img src="{{character.image}}" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">{{character.name}}</p>
-                <a href="#" class="btn btn-warning w-100">See more</a>
+                <a class="btn btn-warning w-100" [routerLink]="['/details', character.id]">See more</a>
             </div>
         </div>
 

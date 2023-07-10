@@ -29,7 +29,7 @@ const routes: Routes = [
     component: AboutComponent
   },
   {
-    path: 'details',
+    path: 'details/:id',
     component: DetailsComponent
   }
 ];
